@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="BillReader.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Bill Scanner" FontSize="Title" FontAttributes="Bold" />
+            <Editor x:Name="IPAddress" Text="192.168.1.3" Placeholder="Enter Server IP" />
+            <Button Text="Take Photo" Clicked="HandlerTakePhotoClicked" />
+            <Label x:Name="ScanProgressLabel" Text="Your bill is being scanned, please wait..." FontSize="Small" IsVisible="false" />
+            <Image x:Name="BillImage" HeightRequest="300" WidthRequest="200" Aspect="AspectFit" />
+            <Label x:Name="Category" FontSize="Medium" />
+            <Label x:Name="Total" FontSize="Medium" />
+            <Label x:Name="Vendor" FontSize="Medium" />
+            <Button x:Name="DuplicateButton" Text="Check for Duplicate" Clicked="HandlerDuplicateCheckClicked" IsVisible="false" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

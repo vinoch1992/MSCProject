@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{B25CB836-C8A4-4952-B7CA-9379C6DD2568}|Default">
+  <MonoDevelop.Ide.ItemProperties.MSCProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MSCProject/Pages/Index.cshtml.cs">
+    <Files>
+      <File FileName="MSCProject/Pages/Index.cshtml.cs" Line="10" Column="40" />
+      <File FileName="MSCProject/Pages/Index.cshtml" Line="52" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MSCProject" expanded="True" selected="True">
+            <Node name="MSCProject" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
