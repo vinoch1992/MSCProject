@@ -88,7 +88,7 @@ namespace BillReader
                     JObject data = JObject.Parse(result);
                     BillImage.Source = Xamarin.Forms.ImageSource.FromStream(
                     () => new MemoryStream(Convert.FromBase64String(image)));
-                    string cat = data["response"]["category"][0].ToString().Equals("M") ? "Meal" : "Travel";
+                    string cat = data["response"]["category"][0].ToString().Equals("M") ? "Food" : "Travel";
                     Category.Text = "Category: " + cat;
                     Total.Text = "Total: " + data["response"]["total"][0].ToString();
                     Vendor.Text = "Vendor: " + data["response"]["vendor_name"][0].ToString();

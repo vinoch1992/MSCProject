@@ -1,26 +1,21 @@
 ﻿<Properties StartupConfiguration="{2C3ABB56-A019-45B9-88B2-80184417DEC0}|Default">
   <MonoDevelop.Ide.ItemProperties.BillReader.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DD962F87-B289-468B-AA9C-3B21303F3B02" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BillReader/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BillReader/DuplicatePage.xaml.cs">
     <Files>
-      <File FileName="BillReader/MainPage.xaml.cs" Line="101" Column="10" />
+      <File FileName="BillReader/MainPage.xaml.cs" Line="91" Column="1" />
       <File FileName="BillReader/MainPage.xaml" />
       <File FileName="BillReader/DuplicatePage.xaml" />
-      <File FileName="BillReader/DuplicatePage.xaml.cs" Line="40" Column="42" />
+      <File FileName="BillReader/DuplicatePage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BillReader" expanded="True">
             <Node name="BillReader" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="DuplicatePage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
+              <Node name="DuplicatePage.xaml" expanded="True">
+                <Node name="DuplicatePage.xaml.cs" selected="True" />
               </Node>
-            </Node>
-            <Node name="BillReader.Android" expanded="True">
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
